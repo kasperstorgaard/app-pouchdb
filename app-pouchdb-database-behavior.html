@@ -227,7 +227,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         }.bind(this));
       },
 
-      __computeDb: function(name, revsLimit, adapter) {
+      __computeDb: function(name, adapter, revsLimit) {
         if (this.db) {
           this.db.removeAllListeners();
         }
